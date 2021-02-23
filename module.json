@@ -1,53 +1,46 @@
 {
-			"name": "legends-and-lore",
-			"title": "Legends and Lore",
-			"description": "The Compendium for Legends and Lore, containing items, edges, etc.",
-			"author": "Krakou Games",
-			"version": "1.0.0",
-			"minimumCoreVersion": "0.6.0",
-			"system" : "swade",
-			"packs": [
-    				{
-      					"name": "weapons",
-      					"label": "Melee and Ranged Weapons",
-						  "system" : "swade",
-      					"path": "packs/legends-and-lore--weapons.db",
-      					"entity": "Item"
-							},
-					{
-      					"name": "armour",
-     					"label": "Armour and Shields",
-						 "system" : "swade",
-      					"path": "./packs/legends-and-lore--armor.db",
-      					"entity": "Item"
-					    	},
-					{
-						"name": "potions",
-      					"label": "Magic Potions",
-						  "system" : "swade",
-      					"path": "./packs/legends-and-lore--potions.db",
-      					"entity": "Item"
-    						},
-					{
-     					"name": "equipment",
-      					"label": "Adventuring Equipment",
-						  "system" : "swade",
-      					"path": "./packs/legends-and-lore--mundane-equipment.db",
-      					"entity": "Item"
-    						},
-					{
-     					"name": "edges",
-      					"label": "Edges from Legends and Lore",
-						  "system" : "swade",
-      					"path": "./packs/legends-and-lore--edges.db",
-      					"entity": "Item"
-    						},
-					{
-      					"name": "skills",
-      					"label": "New Skills",
-						  "system" : "swade",
-      					"path": "./packs/legends-and-lore--skills.db",
-      					"entity": "Item"
-    						}
-				]
+	"name": "legends-and-lore",
+	"title": "Legends and Lore",
+	"description": "The Compendium for Legends and Lore, containing items, edges, etc.",
+	"author": "Krakou Games",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.6.0",
+	"compatibleCoreVersion": "0.7.0",
+	"packs": [{
+			"name": "weapons",
+			"label": "Melee and Ranged Weapons",
+			"path": "packs/legends-and-lore--weapons.db",
+			"entity": "Item"
+		},
+		{
+			"name": "armour",
+			"label": "Armour and Shields",
+			"path": "./packs/legends-and-lore--armor.db",
+			"entity": "Item"
+		},
+		{
+			"name": "potions",
+			"label": "Magic Potions",
+			"path": "./packs/legends-and-lore--potions.db",
+			"entity": "Item"
+		},
+		{
+			"name": "equipment",
+			"label": "Adventuring Equipment",
+			"path": "./packs/legends-and-lore--mundane-equipment.db",
+			"entity": "Item"
+		},
+		{
+			"name": "edges",
+			"label": "Edges from Legends and Lore",
+			"path": "./packs/legends-and-lore--edges.db",
+			"entity": "Item"
+		},
+		{
+			"name": "skills",
+			"label": "New Skills",
+			"path": "./packs/legends-and-lore--skills.db",
+			"entity": "Item"
+		}
+	]
 }
