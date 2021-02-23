@@ -4,6 +4,7 @@
 	"description": "The Compendium for Legends and Lore, containing items, edges, etc.",
 	"author": "Krakou Games",
 	"version": "1.0.0",
+	"system": "swade",
 	"minimumCoreVersion": "0.6.0",
 	"compatibleCoreVersion": "0.7.0",
 	"packs": [{
